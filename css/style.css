@@ -1,0 +1,195 @@
+/*Author:Anuja  date:2023 feb 2*/
+.heading {
+    font-family: "Roboto", sans-serif;
+    font-size: 35px;
+    width: 350px;
+    /* margin-left: 300px; */
+}
+.container-fluid {
+    width: 100%;
+}
+.fbanner {
+    background-image: url("../images/academy-banner.jpg");
+    height: 100vh;
+}
+.logo {
+    margin-top: 200px;
+} /* next section */
+.tbl {
+    font-weight: bold;
+    font-size: 30px;
+    width: 60%;
+    height: 60%;
+    line-height: 200%;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+}
+.cont {
+    padding: 30px;
+}
+.tbl p::before {
+    content: "{";
+    color: rgb(246, 6, 110);
+}
+.tbl p::after {
+    content: "}";
+    color: rgb(246, 6, 110);
+}
+.php {
+    /* display: flex; */
+    position: relative;
+}
+.note {
+    position: absolute;
+    left: 10%;
+    font-size: larger;
+    margin-top: 3%;
+} /*third section */
+.thirdsection {
+    margin-top: 10%;
+}
+.item {
+    background-image: url("../images/modulebg.jpg");
+    color: #fff;
+    width: 100%;
+    padding: 220px;
+}
+.item p {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 10px 60px;
+}
+.last {
+    margin-top: 15%;
+}
+.fimg {
+    background-image: url("../images/testsbg.jpg");
+    background-size: cover;
+}
+.simg {
+    background-image: url("../images/intrvwbg.jpg");
+    background-size: cover;
+}
+.snote {
+    color: #ffffff;
+    background-color: rgba(6, 8, 11, 0.7);
+    width: 90%;
+    height: 90%;
+    margin-left: 30px;
+    margin-top: 30px;
+    text-align: center;
+    padding: 150px;
+} /* footer */
+.footer {
+    margin-top: 5%;
+    width: 100vh;
+    height: 70%;
+    margin-left: 30%;
+}
+.content h2 {
+    color: #181e22;
+}
+.join {
+    margin-top: 5%;
+    margin-left: 25%;
+    width: 30%;
+}
+.join a {
+    text-align: center;
+}
+@media screen and (max-width: 575px) {
+    .fbanner {
+        background-image: none;
+        background-color: rgb(189, 220, 232);
+    }
+    .banner {
+        padding: 0;
+    }
+    .heading {
+        margin-left: 170px;
+    }
+    .phpimg {
+        padding: 0;
+    }
+    .logo {
+        width: 100%;
+        padding-right: 5%;
+        text-align: right;
+    } /* next section */
+    .tbl {
+        background-color: #1e2531;
+        color: rgb(8, 104, 142);
+        border: 2px solid #1e2531;
+        font-weight: bold;
+        font-size: 23px;
+        width: 100%;
+        height: fit-content;
+        line-height: 200%;
+        padding: 10px;
+        position: static;
+    }
+    .cont {
+        padding: 0;
+    }
+    .php {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .php img {
+        width: 500px;
+    }
+    .note {
+        width: 80%;
+        text-align: center;
+    } /*third section */
+    .thirdsection {
+        margin-top: 40%;
+    }
+    .item {
+        background-color: #1e2531;
+        color: #fff;
+        height: 1000px;
+        padding: 50px;
+        margin-top: 300px;
+    }
+    .last {
+        width: 100%;
+        margin-top: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .fimg {
+        background-image: url("../images/testsbg.jpg");
+        width: 100%;
+        background-size: cover;
+        height: 400px;
+        margin-top: 70px;
+    }
+    .simg {
+        background-image: url("../images/intrvwbg.jpg");
+        width: 100%;
+        background-size: cover;
+        height: 400px;
+    }
+    .snote {
+        color: #ffffff;
+        background-color: rgba(6, 8, 11, 0.7);
+        width: 90%;
+        height: 90%;
+        margin-left: 30px;
+        margin-top: 40px;
+        text-align: center;
+        padding: 150px;
+    } /* footer */
+    .footer {
+        margin-top: 10%;
+        width: 100vh;
+        height: 70%;
+        margin-left: 10%;
+    }
+}
